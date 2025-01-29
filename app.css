@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin:0;
+
+}
+@font-face{
+    font-family: interBold;
+    src:url(./assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face{
+    font-family: interRegular;
+    src:url(./assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face{
+    font-family: interSemiBold;
+    src:url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: variable;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+.main{
+    min-width: 100vw;
+    height: 45rem;
+    /* background-color:  hsl(0, 0%, 8%); */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    min-width:16rem;
+    height: 65%;
+    background-color: hsl(0, 0%, 12%);
+    
+}
+.content{
+    width:80%;
+    
+    
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    gap:0.8rem;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.Jessica{
+    margin-top:1rem;
+    color:hsl(0, 0%, 100%);
+    font-family: interSemiBold;
+    font-weight: 200;
+    font-size:1.115rem;
+}
+.desc{
+    color:hsl(0, 0%, 100%);
+    font-size: 0.655rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 200;
+    font-family: variable;
+    
+   
+
+}
+.London{
+    color:hsl(75, 94%, 57%);
+    font-family: interBold;
+    margin-top: 0.5rem;
+    font-size: 0.625rem;
+}
+.imgdiv,.Github,.FMentor,.LinkedIn,.Twitter,.Instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    
+
+
+   
+}   
+.Github,.FMentor,.LinkedIn,.Twitter,.Instagram{
+    background-color: hsl(0, 0%, 20%);
+    height:2rem;
+    color:hsl(0, 0%, 100%);
+    font-size: 0.655rem;
+    border-radius: 0.4rem;
+    font-family: interBold;
+}
+
+.imgdiv img{
+    width:30%;
+    height:auto;
+    border-radius: 50%;
+}
+.Github:hover,.FMentor:hover,.LinkedIn:hover,.Twitter:hover,.Instagram:hover{
+     background-color: hsl(75, 94%, 57%); 
+     color: black;
+     cursor:pointer;
+     
+}
