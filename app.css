@@ -31,24 +31,26 @@
 }
 
 .container{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 20%;
-    min-width:16rem;
-    min-height:29rem;
+    min-width:22rem;
+    min-height:30rem;
     background-color: hsl(0, 0%, 12%);
     
 }
 .content{
-    width:80%;
+    width:100%;
+    padding: 2rem;
     
     
     border-radius: 1rem;
     display: grid;
     grid-template-columns: 1fr;
+    
    
     gap:0.8rem;
     justify-content: center;
