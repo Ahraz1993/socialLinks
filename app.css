@@ -21,7 +21,7 @@
     src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 .main{
-    
+    padding:1rem;
     min-width: 100vw;
     min-height: 100vh;
     /* background-color:  hsl(0, 0%, 8%); */
