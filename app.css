@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin:0;
+    box-sizing: border-box;
 
 }
 @font-face{
@@ -20,6 +21,7 @@
     src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 .main{
+    
     min-width: 100vw;
     min-height: 100vh;
     /* background-color:  hsl(0, 0%, 8%); */
@@ -113,4 +115,10 @@
      color: black;
      cursor:pointer;
      
+}
+
+@media  (max-width:25rem){
+    .container{
+        min-width:18rem;
+    }
 }
